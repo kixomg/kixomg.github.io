@@ -1,0 +1,51 @@
+.tarjeta {
+     border: 1.5px solid #7e7e7e32;
+     ;
+     width: 80%;       
+     max-width: 600px; 
+     margin: 0 auto;
+      width: 250px;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,                 /*Estoy usando la sombra numero #87 de la pagina web*/
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,      /*Tengo en cuenta que en el enunciado decia no modificar*/
+    rgba(53, 0, 0, 0.462) 0px -79px 40px 0px inset,    /*Pero si no lo modificaba, no se veia la sombra*/
+    rgba(255, 0, 0, 0.186) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      background: linear-gradient(
+  to bottom,
+  rgba(209, 209, 209, 0.032) 0%,
+  rgba(255, 255, 255, 0) 25%,
+  rgba(4, 0, 0, 1) 50%,
+  rgba(4, 0, 0, 1) 100%
+  
+);
+
+    }
+    .tarjeta img {
+      max-width: 300px; 
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+      width: 100%;
+      border-radius: 100px;
+    }
+
+p{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(118, 118, 118);
+}
+h3{
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(172, 172, 172);
+  text-shadow: 10px;
+}
